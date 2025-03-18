@@ -7,7 +7,7 @@ public class Main {
         int cnt = 0;
         int N = scanner.nextInt();
 
-        for (int i = 1; N / i > 0; i++) {
+        for (int i = 1; N>=1; i++) {
             N = N / i;
             cnt++;
         }
