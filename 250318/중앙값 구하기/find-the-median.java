@@ -17,6 +17,11 @@ public class Main {
             int temp=B;
             B=C;
             C=temp; //이제 B보다는 C가 큼
+            if(A>B){
+                int tmp=A;
+                A=B;
+                B=tmp; //이제 A보다는 B가 큼
+            }
         }
 
         System.out.println(B);
