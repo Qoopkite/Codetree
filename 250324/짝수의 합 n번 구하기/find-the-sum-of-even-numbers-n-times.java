@@ -9,10 +9,10 @@ public class Main {
         for(int i =0; i<N; i++){
             int a = scanner.nextInt();
             int b = scanner.nextInt();
-            while(a<=b){
                 if(a%2==1){
                     a++;
                 }
+            while(a<=b){
                 sum[i]=sum[i]+a;
                 a=a+2;
             }
