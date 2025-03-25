@@ -9,7 +9,7 @@ public class Main {
 
         int[] R= new int[B];
         int sum=0;
-        while(A>0){
+        while(A>1){
             R[A%B]=R[A%B]+1;
             A=A/B;
         }
