@@ -13,7 +13,7 @@ public class Main {
             R[A%B]=R[A%B]+1;
             A=A/B;
         }
-        for(int i =0; i<9; i++){
+        for(int i =0; i<8; i++){
             sum = sum + R[i]*R[i];
         }
         System.out.println(sum);
