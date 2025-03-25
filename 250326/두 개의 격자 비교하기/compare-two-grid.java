@@ -12,17 +12,17 @@ public class Main {
         int[][] arr3 = new int[N][M];
 
         for(int i =0; i<N; i++){
-            for(int j =0; j<N; j++){
+            for(int j =0; j<M; j++){
                 arr1[i][j]=scanner.nextInt();
             }
         }
         for(int i =0; i<N; i++){
-            for(int j =0; j<N; j++){
+            for(int j =0; j<M; j++){
                 arr2[i][j]=scanner.nextInt();
             }
         }
         for(int i =0; i<N; i++){
-            for(int j =0; j<N; j++){
+            for(int j =0; j<M; j++){
                 if(arr1[i][j]==arr2[i][j]){
                     arr3[i][j]=0;
                 }else{
