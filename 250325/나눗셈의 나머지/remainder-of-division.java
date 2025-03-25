@@ -7,13 +7,13 @@ public class Main {
         int A = scanner.nextInt();
         int B = scanner.nextInt();
 
-        int[] R= new int[9];
+        int[] R= new int[B];
         int sum=0;
         while(A>0){
             R[A%B]=R[A%B]+1;
             A=A/B;
         }
-        for(int i =0; i<8; i++){
+        for(int i =0; i<B; i++){
             sum = sum + R[i]*R[i];
         }
         System.out.println(sum);
