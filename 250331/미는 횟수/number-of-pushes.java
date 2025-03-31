@@ -14,7 +14,7 @@ public class Main {
                 System.out.print(cnt);
                 return;
             }
-                t=t.substring(t.length()-1)+t.substring(0,t.length()-1);
+                s=s.substring(s.length()-1)+s.substring(0,s.length()-1);
                 cnt++;
         
         }
