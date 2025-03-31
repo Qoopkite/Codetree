@@ -13,10 +13,10 @@ public class Main {
             if(s.equals(t)){
                 System.out.print(cnt);
                 return;
-            }else{
+            }
                 t=t.substring(t.length()-1)+t.substring(0,t.length()-1);
                 cnt++;
-            }
+        
         }
 
             System.out.println("-1");
