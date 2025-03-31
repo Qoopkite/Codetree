@@ -13,18 +13,18 @@ public class Main {
 
         for(int i =0; i<N; i++){
             arr[i]=scanner.nextLine();
-            cnt = cnt + arr[i].length();
         }
 
         char X = scanner.next().charAt(0);
 
         for(int i=0; i<N; i++){
             if (arr[i].charAt(0)==X){
+                cnt = cnt + arr[i].length();
                 n++;
             }
         }
         
-        double avg = cnt/N;
+        double avg = cnt/n;
 
         System.out.printf("%d %.2f",n,avg);
     }
