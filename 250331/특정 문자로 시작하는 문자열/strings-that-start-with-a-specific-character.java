@@ -24,7 +24,7 @@ public class Main {
             }
         }
         
-        double avg = cnt/n;
+        double avg = (double)cnt/n;
 
         System.out.printf("%d %.2f",n,avg);
     }
