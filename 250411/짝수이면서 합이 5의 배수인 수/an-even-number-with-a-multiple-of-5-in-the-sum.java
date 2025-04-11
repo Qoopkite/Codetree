@@ -7,11 +7,16 @@ public class Main {
         int x = n/10;
         int y = n%10;
 
-        if(func(x, y)){
-            System.out.println("Yes");
+        if(n%2==0){
+            if(func(x, y)){
+                System.out.println("Yes");
+            }else{
+                System.out.println("No");
+            }
         }else{
             System.out.println("No");
         }
+
 
     }
     public static boolean func(int x, int y){
